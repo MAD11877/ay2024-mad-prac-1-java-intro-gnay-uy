@@ -31,7 +31,6 @@ public class Question5
      
     Scanner in = new Scanner(System.in);
 
-    System.out.print("Enter length: ");
     int length = in.nextInt();
 
     HashMap<Integer, Integer> freqMap = new HashMap<>();
