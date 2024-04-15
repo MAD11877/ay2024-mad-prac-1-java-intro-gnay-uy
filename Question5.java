@@ -45,7 +45,7 @@ public class Question5
 
     for (Map.Entry<Integer, Integer> entry : freqMap.entrySet()) {
       if (entry.getValue() == maxVal) {
-        System.out.println("Mode: " + entry.getKey());
+        System.out.println(entry.getKey());
         break;
       }
     }
